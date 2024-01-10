@@ -60,7 +60,7 @@ body::after {
 .Work {
     width: 120px; 
     height: auto;
-}
+}   
 
 .AboutMe {
     width: 120px;
@@ -71,3 +71,117 @@ body::after {
     width: 40%;
 
 }
+.MyWorks{
+    margin-top: -70px;
+    margin-left: 500px;
+    margin-right: 100px;
+    margin-bottom: 1000px;
+    width: 30%;
+}
+
+.container {
+    perspective: 1000px;
+    margin-top: -1050px;
+    margin-left: 250px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+  }
+  
+  .card {
+    width: 400px;
+    height: 400px;
+    transform-style: preserve-3d;
+    transition: transform 0.5s;
+  }
+  
+  .card:hover {
+    transform: rotateY(180deg);
+  }
+  
+  .front,
+  .back {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+  }
+  
+  .front {
+    transform: rotateY(0deg);
+  }
+  
+  .back {
+    transform: rotateY(180deg);
+    background-color: #fae5ce;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .TasktailTowers {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  p {
+    font-size: 18px;
+    color: #333;
+    margin-left: 10px;
+  }
+
+  .container2 {
+    perspective: 1000px;
+    margin-top: -500px;
+    margin-left: 800px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+  }
+  
+  .card2 {
+    width: 400px;
+    height: 400px;
+    transform-style: preserve-3d;
+    transition: transform 0.5s;
+  }
+  
+  .card2:hover {
+    transform: rotateY(180deg);
+  }
+  
+  .front2,
+  .back2 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+  }
+  
+  .front2 {
+    transform: rotateY(0deg);
+  }
+  
+  .back2 {
+    transform: rotateY(180deg);
+    background-color: #fae5ce;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .CoffeeHaus {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  p {
+    font-size: 18px;
+    color: #333;
+    margin-left: 10px;
+  }
+  h3{
+    font-size: 25px;
+    position: relative;
+    top: -10px;
+  }
