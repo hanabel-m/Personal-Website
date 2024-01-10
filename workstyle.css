@@ -180,8 +180,13 @@ body::after {
     color: #333;
     margin-left: 10px;
   }
-  h3{
+  .more{
     font-size: 25px;
     position: relative;
-    top: -10px;
+    top: -60px;
+  }
+  .photography{
+    font-size: 25px;
+    position: relative;
+    top: -80px;
   }
